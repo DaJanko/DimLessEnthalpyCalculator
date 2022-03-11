@@ -1,4 +1,5 @@
 # DimLessEnthalpyCalculator
+<<<<<<< Updated upstream
 ## Usage
 Put thermodynamic Data inside the .ini file according to comments.
 Start the Notebook. Under USER INPUT, define Setup. Calculate.
@@ -22,3 +23,9 @@ A range is defined by "binsLower", "binsUpper" and "binsResolution" and Partitio
 A Range of possible Parameters is defined next. All parameter combinations are passed to the main function that calculates the Hann number (see "sol"). For all defined bins to search in, the list sol is scanned, and the positions of solutions are returned. A random solution is picked. The position of the randomly picked solution encodes the parameter set. A random solution inside the bin space is chosen. Example: randomsol = {11,1,3} this means that powerlst[[11]],speedlst[[1]] and spotsizelst[[3]] yield the picked solution for the current bin (example search for Hann numbers in bin {1,1.5,2}.
 Because it is more accessible to code, the three values are taken and calculated again. The results are appended to a list. The loop repeats until all bins have been analyzed.
 
+=======
+Calculating the Dimensionless Enthalpy in LPBF according to Hann / Fabbro. 
+- No Approximation of g(Pe) via a linear Function
+    - Numerical solution wherby the sum is approximated via the first 100 terms. Convergence can be shown
+    
+>>>>>>> Stashed changes
